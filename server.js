@@ -16,6 +16,7 @@ app.use(morgan('common'));
 // we're going to add some items to ShoppingList
 // so there's some data to look at
 Recipes.create('chocolate milk', ['cocoa', 'milk', 'sugar']);
+Recipes.create('boiled eggs', ['eggs', 'water']);
 
 
 // when the root of this router is called with GET, return
