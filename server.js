@@ -20,7 +20,7 @@ Recipes.create('chocolate milk', ['cocoa', 'milk', 'sugar']);
 
 // when the root of this router is called with GET, return
 // all current ShoppingList items
-app.get('/find-recipes', (req, res) => {
+app.get('/recipes', (req, res) => {
     res.json(Recipes.get());
 });
 
